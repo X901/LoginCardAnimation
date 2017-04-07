@@ -3,7 +3,7 @@
 ### Inspired by [Yaroslav Zubko](https://dribbble.com/shots/2998951--7-1-Log-In-Sign-Up) 
 
 
-I know it isn't 100% like what Yaroslav Zubko did , but at least what make me satisfied on final result
+I know isn't 100% like what Yaroslav Zubko did , but at least what make me satisfied on final result
 
 ## Demo :
 
