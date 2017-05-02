@@ -31,7 +31,8 @@ class ViewController: UIViewController {
         
         loginCard.transform = CGAffineTransform(rotationAngle: -CGFloat(Double.pi/2))
         
-        loginLeadingConstraint.constant = 134
+        //was 134
+        loginLeadingConstraint.constant = 150
         
    
 
@@ -43,7 +44,7 @@ class ViewController: UIViewController {
     @IBAction func clickedLogin(_ sender: Any) {
         
         
-        if loginLeadingConstraint.constant == 134 {
+        if loginLeadingConstraint.constant == 150 {
         
         
         UIView.animate(withDuration: 0.5, animations: {
@@ -82,7 +83,7 @@ class ViewController: UIViewController {
                 
                 
                 
-                self.signupLeadingConstraint.constant = 134
+                self.signupLeadingConstraint.constant = 150
                 self.view.layoutIfNeeded()
                 
                 
@@ -112,7 +113,7 @@ class ViewController: UIViewController {
     
     @IBAction func clickedSignup(_ sender: Any) {
         
-        if signupLeadingConstraint.constant == 134 {
+        if signupLeadingConstraint.constant == 150 {
         
         UIView.animate(withDuration: 0.4, animations: {
             
@@ -148,7 +149,7 @@ class ViewController: UIViewController {
                 
                 
                 
-                self.loginLeadingConstraint.constant = 134
+                self.loginLeadingConstraint.constant = 150
                 self.view.layoutIfNeeded()
                 
                 
@@ -167,7 +168,7 @@ class ViewController: UIViewController {
         
         
         }else{
-            // do something when click again on login button , your code will be here
+            // do something when click again on signup button , your code will be here
 
             
             
